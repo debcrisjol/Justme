@@ -5,14 +5,15 @@
   <MyExperiences />
   </div>
 </template>
+<script> 
 
-<script>
-import PrimaParte from  './components/PrimaParte.vue'
-import CvCurriculum from  './components/CvCurriculum.vue'
-import MyExperiences from  './components/MyExperiences.vue'
+import PrimaParte from './components/PrimaParte.vue'
+import CvCurriculum from './components/CvCurriculum.vue'
+import MyExperiences from './components/MyExperiences.vue'
 
 export default {
-  name: 'App',
+   
+
   components: {
     PrimaParte,
     CvCurriculum,
@@ -22,7 +23,4 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-}
 </style>

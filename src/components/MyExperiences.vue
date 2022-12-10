@@ -1,6 +1,6 @@
 <template>
     <div id="exp">
-      <p  class="fs-5">Experience
+      <p class="container p-5">Experience
 
 Codecampus logo
 Master in Full Stack Web DevelopmentMaster in Full Stack Web Development
@@ -46,8 +46,8 @@ export default {
 {display:flex;
     justify-content: center;
     align-items: center;
-    margin:30%;
-   height:100vh;
+    margin:5%;
+    height:100vh;
    
 
 }

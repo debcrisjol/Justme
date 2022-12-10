@@ -1,23 +1,27 @@
 <template>
   <div id="app">
-  <PrimaParte />
-  <CvCurriculum />
-  <MyExperiences />
+  <HeaderComp/>
+  <MySelf/>
+  <MyExperiences/>
+  <FullStack />
   </div>
 </template>
 <script> 
 
-import PrimaParte from './components/PrimaParte.vue'
-import CvCurriculum from './components/CvCurriculum.vue'
-import MyExperiences from './components/MyExperiences.vue'
+import HeaderComp from'./components/HeaderComp.vue'
+import MySelf from'./components/MySelf.vue'
+import MyExperiences from'./components/MyExperiences.vue'
+import FullStack from'./components/FullStack.vue'
+
 
 export default {
    
 
   components: {
-    PrimaParte,
-    CvCurriculum,
-    MyExperiences
+    HeaderComp,
+    MySelf,
+    MyExperiences,
+    FullStack,
   }
 }
 </script>

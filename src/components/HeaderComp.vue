@@ -18,13 +18,13 @@
 
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">searching for...</a>
+              <a class="nav-link" href="#fullstack">Full stack Web Developer Skills</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div id="me"> <img class=" rounded-circle mx-auto d-block" src="../assets/me.jpg" alt="my picture">
+    <div id="me"> <img class="mypicture rounded-circle mx-auto d-block" src="../assets/me.jpg" alt="my picture">
       <br>
       <div class="name text-center">
         <h1>Cristina Andreea Danescu</h1>
@@ -47,17 +47,16 @@
 
 
 export default {
-  name: 'PrimaParte',
+  name: 'HeaderComp',
 
 }
 </script>
 
 
-<style scoped lang="scss">
+<style lang="scss">
+
 #start{height: 100vh;}
-img{
-padding:70px;}
-nav {
+nav,#start,#exp,#fullstack {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background: linear-gradient(45deg, #4d4c4c, #f8f5f6fc, #b3b3b2, #0e0e0e);
   background-size: 400% 400%;
@@ -80,8 +79,10 @@ nav {
 }
 
 
-img {
-  width: 10%;
+.mypicture {
+
+  padding:5%;
+  width: 30%;
 
   &:hover {
     filter: sepia(40%) brightness(100%);
@@ -90,7 +91,7 @@ img {
 
 }
 
-nav {
+nav {z-index:2;
   position: fixed !important;
 
 }
